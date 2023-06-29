@@ -25,7 +25,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 Joyce's Portfolio <a name="about-project"></a>
@@ -39,21 +38,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">To be determined</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">To be determined</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">To be determined</a></li>
+    <li><a href="#">HTML/CSS/Javascript</a></li>
   </ul>
 </details>
 
@@ -127,11 +112,10 @@ To follow
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-New features to be determined.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- Dynamic program page
+- Join page contact form
+- Sponsor page contact form
+- News listing page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,22 +138,6 @@ If you like this project, please feel free to leave me a message on Twitter or L
 Warm kudos to Microverse for guidance and structure during my learning journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ❓ FAQ <a name="faq"></a>
-
-<!--
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
--->
 
 ## 📝 License <a name="license"></a>
 
