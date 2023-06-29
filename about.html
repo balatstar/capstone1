@@ -37,11 +37,12 @@
   </nav>
   <main>
     <section class="about-container">
-      <div class="breadcrumbs">
+      <div class="breadcrumbs desktop-only">
         <img src="images/home.gif"> &gt; <a href="#">About</a>
       </div>
       <div class="about">
-        <h1>NIMBB EXPO 2023:<br>Beyond the Double Helix</h1>
+        <p class="subtitle mobile-only">Journey into the World of Molecular Biology</p>
+        <h1>Beyond the Double Helix</h1>
         <div class="about-content">
           <p>Discover the cutting-edge world of molecular biology and biotechnology at our immersive expo. Step into a realm where science and innovation converge, where breakthroughs shape the future of healthcare, agriculture, and beyond. Engage with leading researchers, visionary entrepreneurs, and industry pioneers as they showcase the limitless possibilities of this rapidly advancing field. From genetic engineering to gene editing, from synthetic biology to personalized medicine, witness the transformative power of molecular biology and biotechnology unfold before your eyes. Join us at the forefront of scientific progress and be inspired by the extraordinary potential that lies within the smallest building blocks of life.</p>
         </div>
@@ -68,10 +69,25 @@
           </div>
         </div>
     </section>
+    <section class="partners-container mobile-only">
+      <div class="partners">
+        <h2>Partners</h2>
+        <div class="partner-logos">
+          <img src="images/mozilla.png" alt="Partner1">
+          <img src="images/googlekorea.png" alt="Partner1">
+          <img src="images/naver.png" alt="Partner1">
+          <img src="images/daumkakao.png" alt="Partner1">
+          <img src="images/airbnb.png" alt="Partner1">
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="inner-footer">
     <div class="footer-content">
-      <div class="footer-logo"><img src="images/nimbb-logo-2.png" alt="Logo"></div>
+      <div class="footer-logo">
+        <img src="images/nimbb-logo-2.png" alt="Logo" class="desktop-only">
+        <img src="images/nimbb-logof.png" alt="Logo" class="mobile-only">
+      </div>
       <div class="footer-copyright">
         <strong>2023 NIMBB Expo. Some rights reserved.</strong>
         <p>This demo website was created as a capstone project for Microverse University. The events, people, and other information on the page are for demonstration purposes only.</p>

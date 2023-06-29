@@ -20,10 +20,14 @@ h3 {
   --color3: #d3d3d3;
 }
 
+.desktop-only {
+  display: none;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   background: #f8f8f8 url(images/bg.jpg) top center no-repeat;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--color1);
   line-height: 1.5;
@@ -241,7 +245,7 @@ nav {
   padding: 40px 25px;
   color: var(--color3);
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -269,7 +273,7 @@ nav {
 }
 
 .program-item h3 {
-  font-size: 20px;
+  font-size: 16px;
   color: var(--color2);
   font-weight: 700;
 }
@@ -281,6 +285,16 @@ nav {
 
 .program-item p {
   width: 50%;
+}
+
+.program-cta-mobile {
+  margin: 0 10%;
+  padding: 20px;
+  width: calc(100% - 20%);
+  background-color: var(--color2);
+  border: 0;
+  font-size: 20px;
+  color: #fff;
 }
 
 .speakers,
@@ -333,6 +347,17 @@ nav {
   width: 65%;
 }
 
+.speakers-cta {
+  padding: 20px;
+  width: 100%;
+  background-color: #f8f8f8;
+  color: var(--color1);
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 1px solid var(--color3);
+  border-radius: 5px;
+}
+
 .partners-container {
   width: 100%;
   padding: 40px 0;
@@ -358,8 +383,7 @@ nav {
   margin: 10px;
 }
 
-footer,
-.footer-content {
+footer {
   margin: 0 auto;
   padding: 50px 25px;
   width: 100%;
@@ -438,19 +462,13 @@ footer,
   max-width: 100%;
 }
 
-.inner-footer {
-  padding: 0 25px;
-  max-width: 100%;
-  background-color: var(--color1);
-}
-
-.footer-content {
-  color: #fff;
-}
-
 @media (min-width: 768px) {
   .mobile-only {
     display: none;
+  }
+
+  .desktop-only {
+    display: block;
   }
 
   body {
@@ -515,6 +533,10 @@ footer,
     flex-direction: column;
     justify-content: flex-start;
     width: 20%;
+  }
+
+  .program-item h3 {
+    font-size: 20px;
   }
 
   .program-item p {
@@ -596,5 +618,23 @@ footer,
 
   .gallery {
     width: 50%;
+  }
+
+  .inner-footer {
+    padding: 0 25px;
+    max-width: 100%;
+    background-color: var(--color1);
+  }
+
+  .footer-content {
+    margin: 0 auto;
+    padding: 50px 25px;
+    width: 100%;
+    max-width: 870px;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    line-height: 1.5;
+    display: flex;
   }
 }
