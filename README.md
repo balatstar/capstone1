@@ -155,7 +155,7 @@ Warm kudos to Microverse for guidance and structure during my learning journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
 <!--
 
