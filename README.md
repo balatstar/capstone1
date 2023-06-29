@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- To follow
+- [Live demo](https://balatstar.github.io/capstone1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
