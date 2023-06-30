@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14" width="20" height="14">
+	<title>ic_menu-svg</title>
+	<defs>
+		<image  width="20" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOAQMAAAAVCq6zAAAAAXNSR0IB2cksfwAAAAZQTFRFU1NTAAAAiXbWwQAAAAJ0Uk5T/wDltzBKAAAAEklEQVR4nGNggIL//z+gYALiAJEOF3FawgfvAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0"/>
+</svg>

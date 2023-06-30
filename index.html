@@ -7,10 +7,105 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
-  <title>Joyce's Capstone 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;0,900;&display=swap" rel="stylesheet">
+  <title>NIMBB Expo 2023</title>
 </head>
 <body>
-    
+  <div class="mobile-nav"><a id="navtoggle"><img src="images/ic_menu.svg" alt="Menu" /></a></div>
+  <nav id="nav">
+    <div class="navtop mobile-only"><a id="navToggleClose"><img src="images/Union.svg" alt="Close" /></a></div>
+    <div class="nav-socials">
+      <ul class="nav-social-items">
+        <li class="nav-link"><img src="images/fb-icon.svg" alt="Facebook"></li>
+        <li class="nav-link"><img src="images/twitter-icon.svg"></li>
+        <li class="nav-link"><a href="#">English</a></li>
+        <li class="nav-link"><a href="#">My Page</a></li>
+        <li class="nav-link"><a href="#">Logout</a></li>
+      </ul>
+    </div>
+    <div class="nav-menu">
+      <ul class="main-menu">
+        <li class="logo nav-link"><a href="index.html"><img src="images/nimbb-logo.png"></a></li>
+        <li class="nav-link"><a href="about.html">About</a></li>
+        <li class="nav-link"><a href="#">Program</a></li>
+        <li class="nav-link"><a href="#">Join</a></li>
+        <li class="nav-link"><a href="#">Sponsor</a></li>
+        <li class="nav-link"><a href="#">News</a></li>
+        <li class="main-cta nav-link"><a href="#">NIMBB Grants</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="hero-container">
+      <div class="hero">
+        <p class="subtitle">Journey into the World of Molecular Biology</p>
+        <h1>Beyond the Double Helix</h1>
+        <div class="hero-summary">
+          <p>Engage with renowned scientists, visionary researchers, and industry pioneers as they share their insights and unveil the transformative potential of molecular biology. Experience firsthand the awe-inspiring technologies that have revolutionized the way we study, manipulate, and harness the power of life at the molecular level.</p>
+        </div>
+        <p class="hero-date">2023.09.01(Fri) ~ 03(Sun)</p>
+        <p class="hero-location">@National Institute of Molecular Biology and Biotechnology, UP Diliman</p>
+      </div>
+    </section>
+    <section class="program-container">
+      <div class="program">
+        <h2>Main Program</h2>
+        <div class="program-items">
+          <div class="program-item">
+            <img src="images/program_icon5.png" alt="Lecture">
+            <h3>Lecture</h3>
+            <p>Listen to experts talk on cutting-edge molecular biology breakthroughs and insights.</p>
+          </div>
+          <div class="program-item">
+            <img src="images/program_icon2.png" alt="Exhibition">
+            <h3>Exhibition</h3>
+            <p>View an interactive showcase of groundbreaking technologies driving molecular biology advancements.</p>
+          </div>
+          <div class="program-item">
+            <img src="images/program_icon3.png" alt="Forum">
+            <h3>Forum</h3>
+            <p>Engage in discussions on challenges and opportunities shaping the future of molecular biology.</p>
+          </div>
+          <div class="program-item">
+            <img src="images/program_icon4.png" alt="Workshop">
+            <h3>Workshop</h3>
+            <p>Participate in hands-on sessions for practical application of molecular biology skills and knowledge.</p>
+          </div>
+          <div class="program-item">
+            <img src="images/program_icon1.png" alt="Network">
+            <h3>Network</h3>
+            <p>Connect with researchers and industry professionals, fostering collaborations in molecular biology.</p>
+          </div>
+        </div>
+        <div class="mobile-only"><button class="program-cta-mobile">Join NIMBB Expo 2023</button></div>
+        <a href="#" class="program-cta desktop-only">See the whole program</a>
+      </div>
+    </section>
+    <section class="speakers">
+      <h2>Featured Speakers</h2>
+      <div class="speaker-items"></div>
+      <div class="mobile-only"><button class="speakers-cta">More <img src="images/more.gif" alt="More"></button></div>
+    </section>
+    <section class="partners-container">
+      <div class="partners">
+        <h2>Partners</h2>
+        <div class="partner-logos">
+          <img src="images/mozilla.png" alt="Partner1">
+          <img src="images/googlekorea.png" alt="Partner1">
+          <img src="images/naver.png" alt="Partner1">
+          <img src="images/daumkakao.png" alt="Partner1">
+          <img src="images/airbnb.png" alt="Partner1">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-logo"><img src="images/nimbb-logof.png" alt="Logo"></div>
+    <div class="footer-copyright">
+      <strong>2023 NIMBB Expo. Some rights reserved.</strong>
+      <p>This demo website was created as a capstone project for Microverse University. The events, people, and other information on the page are for demonstration purposes only.</p>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
 </body>
 </html>

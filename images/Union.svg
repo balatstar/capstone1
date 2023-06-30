@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>Union</title>
+	<defs>
+		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAAXNSR0IB2cksfwAAACdQTFRF09PT09PTAAAA09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTIrz+AgAAAA10Uk5TIL8AgBD/35/A7zCvcL+B4rsAAABjSURBVHicFY2xDYAwEMQOimxAH32TBWAAlkAgUdBkhCyTMjuwAJNxTvMnS3Y0zcFbtTzcciodoNaVq1G5hgLUeiiMDDyMDBi5GjDiRRQKomggigYt0aAlGrS0dT5Nt/bByN8PEBUeW+UGjzoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0"/>
+</svg>
