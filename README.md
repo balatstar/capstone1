@@ -27,9 +27,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Joyce's Portfolio <a name="about-project"></a>
+# 📖 Capstone1 <a name="about-project"></a>
 
-**Capstone1** is my first capstone project for Microverse. It highlights technical skills learned from Module 1, including HTML/CSS and Javascript.
+**Capstone1** is a mock online website for the NIMBB Expo 2023. This is a capstone project for module 1 of the Microverse curriculum, highlighting technical skills which include HTML/CSS and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
